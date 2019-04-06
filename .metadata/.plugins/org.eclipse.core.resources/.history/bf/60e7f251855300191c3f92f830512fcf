@@ -1,0 +1,35 @@
+package com.test.code;
+
+public class Test {
+
+	Person test;
+	
+	Person pp = new Person(test);
+	
+	
+	
+}
+
+class Person {
+	
+	public Person() { }
+	public Person(Person p) throws NullNameException {
+		
+		if (p == null) {
+			NullNameException ee = new NullNameException("Ёнюс");
+			
+			throw ee;
+		}
+		
+	}
+	
+}
+
+class NullNameException extends Exception {
+	
+	public NullNameException(String message) {
+		super(message);
+	}
+	
+}
+

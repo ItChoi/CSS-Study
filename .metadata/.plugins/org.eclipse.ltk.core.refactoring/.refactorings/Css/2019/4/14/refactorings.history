@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Css/doc/inflearn/실전 HTML &amp; CSS 강좌/css-기본-2.md&apos; to &apos;02.css-기본-2.md&apos;" description="Rename resource &apos;css-기본-2.md&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="doc/inflearn/실전 HTML &amp; CSS 강좌/css-기본-2.md" name="02.css-기본-2.md" stamp="1554514338248" updateReferences="true"/>
+</session>

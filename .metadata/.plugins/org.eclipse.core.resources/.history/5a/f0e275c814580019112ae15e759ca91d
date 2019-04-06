@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<p><i>이탤릭체</i>
+	<p>ABC<sup>ABC</sup></p>
+	<p><ins>ABCD</ins></p>
+	<p><del>ABCD</del></p>
+</body>
+</html>

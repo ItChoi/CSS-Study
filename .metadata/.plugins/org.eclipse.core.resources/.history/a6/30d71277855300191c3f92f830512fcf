@@ -1,0 +1,43 @@
+package com.test.code;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Person test = null;
+		
+		try {
+			Person pp = new Person(test);
+		} catch (NullNameException e) {
+			System.out.println("1");
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+}
+
+class Person {
+	
+	public Person() { }
+	public Person(Person p) throws NullNameException {
+		
+		if (p == null) {
+			NullNameException ee = new NullNameException("Ёнюс");
+			
+			throw ee;
+		}
+		
+	}
+	
+}
+
+class NullNameException extends Exception {
+	
+	public NullNameException(String message) {
+		super(message);
+	}
+	
+}
+
