@@ -1,0 +1,45 @@
+# 07 css-속성-3
+	- font-family, font-size 속성
+	- font-style, font-weight, line-height 속성
+	- text-align, text-decoration 속성
+	- position 속성
+	
+	1) font-family, font-size 속성
+		- font-family
+			- ex) font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				-> 설정한 폰트 사이즈가 없을 경우 순서대로 가다가 있는 폰체가 적용된다. 그래도 없다면 브라우저 default 폰트가 설정 된다.
+		
+		- font-size
+			- 글자 크기
+		
+	
+	2) font-style, font-weight, line-height 속성
+		- font-style
+			- 이탤릭체, ...
+		
+		- font-weight
+			- 볼드체, ...
+		
+		- line-height
+			- 행 간격, ...
+			- 가로 센터 정렬은 text-align:center; 주면 되는데 
+			세로 센터 정렬을 줄떈, line-height 간격을 height과 같은 수치를 주면 정렬이 된다.
+		
+	3) text-align, text-decoration 속성
+		- text-align
+			- text-align: right; 
+		
+		- text-decoration
+			- ex) text-decoration: underline;
+			
+	4) position 속성
+		- absolute 속성 (절대 값)
+			- 감싸고 있는 태그를 기준으로.. 따라서 사용자가 left, top 등을 지정해주는 경우가 많다.
+			- 감싸고 있는 태그가 절대값. -> 바깥에 태그가 감싸고 있는 태그의 좌 상단을 기준으로 잡는다.
+			
+			
+			
+	
+	
+	
+	
