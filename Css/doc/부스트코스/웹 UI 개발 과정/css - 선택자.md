@@ -34,17 +34,33 @@
 		
 		
 		
+##### - position ,offset
+	-	position
+		- static: 포지션이 static일 경우 top, left 등이 먹지 않는다.
+		- relative: 자리를 유지하면서, top, left 만큼 움직인다. 
+		- absolute: 부모가 relative면 부모를 기준으로 좌표를 잡는다. 없으면 할아부지.. 없으면 body....
+		- fixed: 브라우저를 기준으로 화면 고정... 
+		- absolute, fixed의 경우 박스 모델이 block이 된다.
 		
 		
+##### - z-index		 
+		- 박스가 겹치는 순서를 정한다.
+		- position이 static이 아닌 경우 지정 가능 ( z-index: 1, 2, ...;)
+		- 부모가 z-index 값이 있을 경우 부모 안에서만 의미 있다. 
+		- (부모-자식) (부모-자식) 중 자식이 다른 자식 보다 z-index가 낮아도 부모의 z-index가 높다면 더 위에 올라온다.
 		
 		
-		 
+##### - 미디어 쿼리 (Media Queries)
+	- 반응형 웹 사이트를 만들기 위해 반드시 필요한 것..
+	- 각 미디어 매체에 따라 다른 스타일 시트를 적용할수 있게 만드는 것
+		- 미디어(screen, print, ....)
+	
 		
-		
-		
-		
-		
-		
-		
+[1. 미디어 쿼리 1](https://www.w3.org/TR/css3-mediaqueries/)
+[2. 미디어 쿼리 2](https://www.w3.org/TR/mediaqueries-4/)
+[3. 미디어 쿼리 3 - 어떤 식으로 반응형 웹 사이트를 구축하는지 .....](https://mediaqueri.es/)
+
+[부스트코스 웹 UI 개발 과정 - 프로젝트 A-1](https://www.edwith.org/boostcourse-ui/joinLectures/19152)
+
 		
 		
