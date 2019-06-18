@@ -1,0 +1,51 @@
+html, body, .wrap {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	width: 100%;
+	height: 120px;
+	background: #000;
+	
+	position: relative; 
+}
+
+.content {
+	position: absolute;
+	top: 0;
+	left: 20%;
+	right: 20%;
+}
+
+.con_header {
+	height: 120px;
+}
+
+.title {
+	margin: 0px;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 120px;
+}
+
+.con_content {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+.button_elements {
+	display: inline-block;
+	border:  1px solid #d1d1d1;
+	width: 30%;
+}
+
+.button_elements:HOVER {
+	background-color: #454545;
+	font-weight: bold;
+}
+
