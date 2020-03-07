@@ -39,6 +39,9 @@ build/
 .settings
 .springBeans
 /bin
+.recommenders
+Servers
+
 
 .ssh
 
