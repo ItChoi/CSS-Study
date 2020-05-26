@@ -26,12 +26,34 @@ html, body, .wrap {
     width: 15%;
     height: 100%;
     float: left;
-    text-align: center;
+}
+
+
+.content {
+    width: 75%;
+    height: 90%;
+    float: left;
+    background: gray;
+    margin: 5%;
+    overflow: auto;
+}
+
+.main_content {
+    width: 100%;
+    height: 90%;
+    background: #62b7ac;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background: red;
 }
 
 .main_logo {
     line-height: 37.5px;
     background: cornflowerblue;
+    text-align: center;
 }
 
 .anonymous {
@@ -51,7 +73,7 @@ html, body, .wrap {
 .sub_menu_list {
     width: 100%;
     height: 90%;
-    /*background: pink;*/
+    overflow: auto;
 }
 
 .main_menu_list {
@@ -62,6 +84,7 @@ html, body, .wrap {
     float: left;
     overflow: auto;
 }
+
 
 .main_menu_list ul {
     height: 100%;
@@ -81,4 +104,35 @@ html, body, .wrap {
 .btn_login a, .btn_register a {
     line-height: 50px;
     text-decoration: none;
+}
+
+.menu_list_txt {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.depth_one {
+    padding-left: 10px;
+}
+
+.depth_two {
+    padding-left: 15px;
+}
+
+.depth_three {
+    padding-left: 20px;
+}
+
+.depth_one p {
+    margin: 5px 0px;
+}
+
+.depth_one_txt {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.anonymous, .info_area {
+    text-align: center;
 }
