@@ -16,6 +16,11 @@ html, body, .wrap {
     overflow: hidden;
 }
 
+.wrap {
+    min-width: 700px;
+
+}
+
 .header {
     width: 100%;
     height: 75px;
@@ -24,33 +29,48 @@ html, body, .wrap {
 
 .main_logo, .side_area {
     width: 15%;
-    height: 100%;
     float: left;
+}
+
+.side_area {
+    height: 85%;
+    float: left;
+    background: #d1d1d1;
 }
 
 
 .content {
-    width: 75%;
-    height: 90%;
     float: left;
+    width: 85%;
+    height: 85%;
+    /*padding: 5%*/;
     background: gray;
-    margin: 5%;
     overflow: auto;
 }
 
 .main_content {
-    width: 100%;
+    width: 90%;
     height: 90%;
+    padding: 5%;
     background: #62b7ac;
 }
 
 .footer {
     width: 100%;
     height: 10%;
-    background: red;
+    float: left;
+    display: flex;
+    text-align: center;
+    background: rebeccapurple;
+}
+
+.blog_info {
+    width: 100%;
+    height: 100%;
 }
 
 .main_logo {
+    height: 100%;
     line-height: 37.5px;
     background: cornflowerblue;
     text-align: center;
@@ -75,6 +95,7 @@ html, body, .wrap {
     height: 90%;
     overflow: auto;
 }
+
 
 .main_menu_list {
     width: 85%;
@@ -135,4 +156,12 @@ html, body, .wrap {
 
 .anonymous, .info_area {
     text-align: center;
+}
+
+.search_area, .content_area {
+    width: 100%;
+}
+
+.search_frame {
+    width: 100%;
 }
